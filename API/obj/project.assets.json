@@ -80,11 +80,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/HRSystem.API/HRSystem.API.csproj",
-      "projectName": "HRSystem.API",
-      "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/HRSystem.API/HRSystem.API.csproj",
+      "projectUniqueName": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/API/API.csproj",
+      "projectName": "API",
+      "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/API/API.csproj",
       "packagesPath": "/home/hussain7rowad/.nuget/packages/",
-      "outputPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/HRSystem.API/obj/",
+      "outputPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/hussain7rowad/.nuget/NuGet/NuGet.Config"

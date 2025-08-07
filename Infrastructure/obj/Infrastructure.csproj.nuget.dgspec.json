@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hussain7rowad/projects/dotnet/Basic-HR-System/HRSystem.API/HRSystem.API.csproj": {}
+    "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/hussain7rowad/projects/dotnet/Basic-HR-System/HRSystem.API/HRSystem.API.csproj": {
+    "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/HRSystem.API/HRSystem.API.csproj",
-        "projectName": "HRSystem.API",
-        "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/HRSystem.API/HRSystem.API.csproj",
+        "projectUniqueName": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/hussain7rowad/.nuget/packages/",
-        "outputPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/HRSystem.API/obj/",
+        "outputPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hussain7rowad/.nuget/NuGet/NuGet.Config"
@@ -44,12 +44,6 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -62,9 +56,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
