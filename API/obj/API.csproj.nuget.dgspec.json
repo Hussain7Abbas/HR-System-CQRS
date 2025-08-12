@@ -26,7 +26,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Application/Application.csproj": {
+                "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Application/Application.csproj"
+              },
+              "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -45,6 +52,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.7, )"
@@ -65,6 +76,203 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Application/Application.csproj",
+        "packagesPath": "/home/hussain7rowad/.nuget/packages/",
+        "outputPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hussain7rowad/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Domain/Domain.csproj": {
+                "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Domain/Domain.csproj",
+        "packagesPath": "/home/hussain7rowad/.nuget/packages/",
+        "outputPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hussain7rowad/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/hussain7rowad/.nuget/packages/",
+        "outputPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hussain7rowad/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Application/Application.csproj": {
+                "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Application/Application.csproj"
+              },
+              "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Domain/Domain.csproj": {
+                "projectPath": "/home/hussain7rowad/projects/dotnet/Basic-HR-System/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
