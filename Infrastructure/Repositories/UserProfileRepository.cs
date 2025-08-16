@@ -20,14 +20,17 @@ public class UserProfileRepository : IUserProfileRepository
     _db.UserProfiles.Remove(entity);
     await _db.SaveChangesAsync();
   }
-
+  public async Task<UserProfile?> GetByIdAsync(Guid id)
+  {
+    return await _db.UserProfiles.FindAsync(id);
+  }
   public async Task<UserProfile?> GetByAccountIdAsync(Guid accountId)
   {
     return await _db.UserProfiles.FirstOrDefaultAsync(u => u.AccountId == accountId);
   }
-
-  public async Task<UserProfile?> GetByIdAsync(Guid id)
+  public async Task UpdateAsync(UserProfile entity)
   {
-    return await _db.UserProfiles.FindAsync(id);
+    _db.UserProfiles.Update(entity);
+    await _db.SaveChangesAsync();
   }
 }
