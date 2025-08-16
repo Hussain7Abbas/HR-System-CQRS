@@ -30,4 +30,10 @@ public class EmployeeRepository : IEmployeeRepository
   {
     return await _db.Employees.FindAsync(id);
   }
+
+  public async Task UpdateAsync(Employee entity)
+  {
+    _db.Employees.Update(entity);
+    await _db.SaveChangesAsync();
+  }
 }

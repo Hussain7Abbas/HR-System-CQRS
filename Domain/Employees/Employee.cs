@@ -19,4 +19,6 @@ public class Employee
 
   public void UpdatePosition(string position) => Position = position;
   public void UpdateSalary(decimal salary) => Salary = salary;
+
+  public void UpdateName(string name) => Name = name;
 }
